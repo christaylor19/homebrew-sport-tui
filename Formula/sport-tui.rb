@@ -1,16 +1,16 @@
 class SportTui < Formula
   desc "Terminal UI for multi-sport data"
   homepage "https://github.com/christaylor19/sport-project"
-  version "0.5.2"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/christaylor19/sport-project/releases/download/v0.5.2/sport-tui-aarch64-apple-darwin"
-      sha256 "f1d53b43024141ced747d5df6f13ac3eea49fab96e3a63bffa0b1af2bff8a916"
+      url "https://github.com/christaylor19/sport-project/releases/download/v0.6.0/sport-tui-aarch64-apple-darwin"
+      sha256 "54ebcbf36ed3fc62e1b99291d51b1bccdb307b8ed1f9cdb4ff4f69f00694d0e5"
     elsif Hardware::CPU.intel?
-      url "https://github.com/christaylor19/sport-project/releases/download/v0.5.2/sport-tui-x86_64-apple-darwin"
-      sha256 "e6671596ef993ac565477207594de29de0a04b112db6b61ed6bd6cb7dad8814e"
+      url "https://github.com/christaylor19/sport-project/releases/download/v0.6.0/sport-tui-x86_64-apple-darwin"
+      sha256 "e0a50c9a71c6d189eac26165a4734c543494ff9992e6ed4858c8904d39a65d46"
     end
   end
 
